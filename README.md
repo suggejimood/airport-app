@@ -30,7 +30,11 @@ https://www.mongodb.com/try/download/compass
 * Set-Cooike web browsera kayıt olmuyor.
 * Cookie olmadığı için çoğu fonksyon çalışmıyor.
 
-## Roadmap
+## Yapılacaklar | Yapılanlar :P
+  - [x] Auth işlemlerinin yapılması.
+      - [x] Controller
+      - [x] Validations
+      - [x] Router
   - [x] User işlemlerinin yapılması.
       - [x] Controller
       - [x] Model
@@ -46,11 +50,12 @@ https://www.mongodb.com/try/download/compass
       - [x] Model
       - [x] Validations
       - [x] Router
-  - [ ] Dasboard işlemlerinin yapılması.
+  - [x] Dasboard işlemlerinin yapılması.
       - [x] Controller
       - [x] Router
-  - [ ] Projenin Dockerise edilmesi
-  - [ ] Unit Testlerin yazılması
+  - [ ] Projenin Dockerize edilmesi.
+  - [x] Error classlarının yazılması.
+  - [ ] Unit Testlerin yazılması.
       - [x] Auth
       - [ ] User
       - [ ] Booking
