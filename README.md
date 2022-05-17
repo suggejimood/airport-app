@@ -3,7 +3,10 @@ Bu proje schiphol havalimanındaki uçakların takibi için geliştirilmişti.
 
 ### Back End
 * İlk önce back end klasörünün dizinine gelin.
-* Ardından 'npm i' komutunu consol'a girin.
+* Ardından aşağıdaki komutunu terminal ekranına girin.
+  ```sh
+  npm i
+  ```
 * node_module dosyası oluştuktan ve tüm yüklümeler tamamlandıktan sonra kullanıma hazır.
 
 ### DataBase (MongoDB) ###
@@ -21,8 +24,8 @@ https://www.mongodb.com/try/download/compass
 
 ### Eksikler
 ##### Back end
-    * Unit testlerde supertest bir nedenden dolayı testleri gerçekleştiremiyor. 400 veya 401 hatası geri dönüyor.
+* Unit testlerde supertest bir nedenden dolayı testleri gerçekleştiremiyor. 400 veya 401 hatası geri dönüyor.
 
 ##### Front End
-    * Set-Cooike web browsera kayıt olmuyor.
-    * Cookie olmadığı için çoğu fonksyon çalışmıyor.
+* Set-Cooike web browsera kayıt olmuyor.
+* Cookie olmadığı için çoğu fonksyon çalışmıyor.
