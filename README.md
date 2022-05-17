@@ -18,8 +18,8 @@ https://www.mongodb.com/docs/guides/server/install/
 https://www.mongodb.com/try/download/compass
 
 ### Front End
-* Back end kodlarında cors orgin olarak 127.0.0.1:5500 tanımlanmıştır bu Live Server eklentisinin yayın yaptığı adrestir.
-* Eğer bir web adresinde veya benzeri bir yerde çalıştırılacaksa bu orgin güncellenmelidir.
+* Back end kodlarında cors origin olarak 127.0.0.1:5500 tanımlanmıştır bu Live Server eklentisinin yayın yaptığı adrestir.
+* Eğer bir web adresinde veya benzeri bir yerde çalıştırılacaksa bu origin güncellenmelidir.
 * not: f.e tarafı düzgün çalışmadığı için postman üzerinden denemeler yapılabilir. Postman klasörü içerisinde gerekli olan json dosyası mevcut.
 
 ### Eksikler
