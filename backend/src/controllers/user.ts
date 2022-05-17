@@ -30,8 +30,12 @@ const seeProfile = async ( req: Request, res: Response ) => {
 };
 
 const updatePassword = async ( req: Request, res: Response ) => {
-    const { newPassword } = req.body;
+    const { newPassword, reNewPassword } = req.body;
     const userInfo = await jwtUser(req);
+
+    if(newPassword != reNewPassword){
+        throw new BadRequestError('Şifreler uyuşmuyor!');
+    }
 
     const hashedPassword = await bcrypt.hash(newPassword, 10);
 

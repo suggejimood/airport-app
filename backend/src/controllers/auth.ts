@@ -59,7 +59,7 @@ const signin = async ( req: Request, res: Response ) => {
 
     const token = jwt.sign(payload, `${process.env.JWT_SECRET}`)
 
-    res.cookie('Set-Cookie', token, {httpOnly: true, secure: true, sameSite: 'none'});
+    res.cookie('Set-Cookie', token, /*{httpOnly: true, secure: true, sameSite: 'none'}*/);
     res.status(200).json({message: "Başarılı bir şekilde giriş yapıldı."});
 };
 
