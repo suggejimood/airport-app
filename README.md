@@ -2,12 +2,12 @@
 Bu proje schiphol havalimanındaki uçakların takibi için geliştirilmişti.
 
 ### Back End
-* İlk önce back end klasörünün dizinine gelin.
-* Ardından aşağıdaki komutunu terminal ekranına girin.
+* İlk önce back end klasörünün dizinine girin.
+* Ardından aşağıdaki komutunu terminal ekranına yazın.
   ```sh
   npm i
   ```
-* node_module dosyası oluştuktan ve tüm yüklümeler tamamlandıktan sonra kullanıma hazır.
+* node_module klasörü oluştuktan ve tüm yüklümeler tamamlandıktan sonra kullanıma hazır.
 
 ### DataBase (MongoDB) ###
 * Eğer bilgisayarınızda mongodb kurulu değilse aşağıdaki linkler üzerinden indirmeleri gerçekleştiriniz.
@@ -29,3 +29,30 @@ https://www.mongodb.com/try/download/compass
 ##### Front End
 * Set-Cooike web browsera kayıt olmuyor.
 * Cookie olmadığı için çoğu fonksyon çalışmıyor.
+
+## Roadmap
+  - [x] User işlemlerinin yapılması.
+      - [x] Controller
+      - [x] Model
+      - [x] Validations
+      - [x] Router
+  - [x] Booking işlemlerinin yapılması.
+      - [x] Controller
+      - [x] Model
+      - [x] Validations
+      - [x] Router
+  - [x] Flights işlemlerinin yapılması.
+      - [x] Controller
+      - [x] Model
+      - [x] Validations
+      - [x] Router
+  - [ ] Dasboard işlemlerinin yapılması.
+      - [x] Controller
+      - [x] Router
+  - [ ] Projenin Dockerise edilmesi
+  - [ ] Unit Testlerin yazılması
+      - [x] Auth
+      - [ ] User
+      - [ ] Booking
+      - [ ] Flights
+      - [ ] Dashboard
